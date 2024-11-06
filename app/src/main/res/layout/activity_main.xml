@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#d99170"
+    android:background="#A5CC78"
     tools:context=".MainActivity">
 
     <RelativeLayout
@@ -19,19 +18,19 @@
             android:id="@+id/button"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:text="Добавить новую запись"
+            android:text="@string/Добавить"
             android:layout_centerInParent="true"
-            android:background="#8e340b"
-            android:textColor="#dcbfb2"
+            android:background="#275B29"
+            android:textColor="#FFFFFF"
             android:layout_marginBottom="16dp"/>
 
         <Button
             android:id="@+id/button2"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:text="Посмотреть все записи"
-            android:background="#8e340b"
-            android:textColor="#dcbfb2"
+            android:text="@string/Посмотреть"
+            android:background="#275B29"
+            android:textColor="#FFFFFF"
             android:layout_above="@id/button"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="16dp"/>
@@ -40,9 +39,9 @@
             android:id="@+id/button3"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:text="Обновить последнюю запись"
-            android:background="#8e340b"
-            android:textColor="#dcbfb2"
+            android:text="@string/Обновить"
+            android:background="#275B29"
+            android:textColor="#FFFFFF"
             android:layout_below="@id/button"
             android:layout_centerHorizontal="true"/>
     </RelativeLayout>
